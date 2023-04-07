@@ -7,4 +7,4 @@
     The main feature of the project is its visual component. The background image is a sky with clouds moving in different directions. The duck floating on the surface of the water has live animation.
 </p>
 
-<b>Link</b>: <a href="duck-phi.vercel.app">duck-phi.vercel.app</a>
+<b>Link</b>: <a href="https://duck-phi.vercel.app/">duck-phi.vercel.app</a>
