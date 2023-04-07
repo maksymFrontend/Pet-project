@@ -1,5 +1,13 @@
 # Pet-project
 
+<h2>Gardener's calendar 2023</h2>
+<img src="https://github.com/maksymFrontend/Pet-project/blob/main/img/GCalendar.png?raw=true" alt="Gardener's calendar">
+<p>
+    The "Gardener's calendar" project is a web-based application designed for gardeners who want to keep track of the weather, the position of the moon, and receive recommendations for gardening. This is a quick calendar to help you plan your garden. The main feature of the project is the integration of information about weather conditions and moon phases. The user can view the current and forecast weather conditions in his area and learn about the position of the moon and its phase on the current day.The "Gardener's calendar" project was created using the modern <b>React</b> JS library, as well as an API for getting information about weather conditions and moon phases.
+    P.S. It was created very quickly for my grandfather :), so this is just a blank for a real project.
+</p>
+
+<b>Link</b>: <a href="https://gardeners-calendar.vercel.app/">gardeners-calendar.vercel.app</a>
 
 <h2>Duck</h2>
 <img src="https://github.com/maksymFrontend/Pet-project/blob/main/img/Duck.png?raw=true" alt="Duck img">
@@ -20,11 +28,3 @@
 
 <b>Link</b>: <a href="https://rubik-s-cube.vercel.app/">rubik-s-cube.vercel.app</a>
 
-<h2>Gardener's calendar 2023</h2>
-<img src="https://github.com/maksymFrontend/Pet-project/blob/main/img/GCalendar.png?raw=true" alt="Gardener's calendar">
-<p>
-    The "Gardener's calendar" project is a web-based application designed for gardeners who want to keep track of the weather, the position of the moon, and receive recommendations for gardening. This is a quick calendar to help you plan your garden. The main feature of the project is the integration of information about weather conditions and moon phases. The user can view the current and forecast weather conditions in his area and learn about the position of the moon and its phase on the current day.The "Gardener's calendar" project was created using the modern <b>React</b> JS library, as well as an API for getting information about weather conditions and moon phases.
-    P.S. It was created very quickly for my grandfather :), so this is just a blank for a real project.
-</p>
-
-<b>Link</b>: <a href="https://gardeners-calendar.vercel.app/">gardeners-calendar.vercel.app</a>
