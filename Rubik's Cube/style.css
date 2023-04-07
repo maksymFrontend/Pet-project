@@ -1,0 +1,128 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    position: fixed;
+    margin: 0;
+    -webkit-perspective: 800;
+    perspective: 800px;
+    perspective-origin: 50% 100px;
+    animation-duration: 13s;
+    animation-name: Y;
+    animation-iteration-count: infinite;
+}
+
+#rotationX{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transition: all 1.0s ease-in-out;
+    transform-style: preserve-3d;
+    animation-duration: 100s;
+    animation-name: RotateX;
+    animation-iteration-count: infinite;
+}
+
+#rotationY{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: all 1.0s ease-in-out;
+    animation-duration: 13s;
+    animation-name: RotateY;
+    animation-iteration-count: infinite;
+}
+
+.wall{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wall div{
+    height: 31.333%;
+    width: 31.333%;
+    position: relative;
+    border: 2px solid black;
+}
+
+.wall:nth-child(1){
+    transform: translateZ(100px);
+    background: rgb(0, 68, 255);
+}
+
+.wall:nth-child(2){
+    transform: rotateY(90deg) translateZ(100px);
+    background: rgb(255, 255, 255);
+}
+
+.wall:nth-child(3){
+    transform: rotateY(180deg) translateZ(100px);
+    background: rgb(255, 34, 34);
+}
+
+.wall:nth-child(4){
+    transform: rotateY(-90deg) translateZ(100px);
+    background: rgb(56, 197, 8);
+}
+
+.wall:nth-child(5){
+    transform: rotateX(90deg) translateZ(100px);
+    background: rgb(230, 255, 3);
+}
+
+.wall:nth-child(6){
+    transform: rotateX(-90deg) translateZ(100px);
+    background: rgb(255, 147, 16);
+}
+
+@keyframes RotateY {
+    0% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(360deg);
+    }
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+
+  @keyframes RotateX {
+    0% {
+        transform: rotateX(0deg);
+    }
+    50% {
+        transform: rotateX(360deg);
+    }
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+
+
+@keyframes Y {
+    0% {
+        background: rgb(246, 252, 123);
+    }
+    25% {
+        background: rgb(153, 237, 89);
+    }
+    50% {
+        background: rgb(123, 232, 246);
+    }
+    75% {
+        background: rgb(131, 112, 240);
+    }
+    100% {
+        background: rgb(246, 252, 123);
+    }
+}
