@@ -2,6 +2,7 @@
 
 
 <h2>Duck</h2>
+<img src="https://github.com/maksymFrontend/Pet-project/blob/main/img/Duck.png?raw=true" alt="Duck img">
 <p>
     The Duck project is an interactive web application that simulates a duck swimming against the backdrop of moving clouds.
     The main feature of the project is its visual component. The background image is a sky with clouds moving in different directions. The duck floating on the surface of the water has live animation.
