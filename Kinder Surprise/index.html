@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kinder</title>
+    </head>
+    <body>
+        <style>
+            body{
+                background-color: #ecc067;
+                height: 10000px;
+            }
+            .egg{
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%);
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                justify-content: center;
+                height: 345px;
+                width: 246px;
+            }
+            .egg div{
+                display: flex;
+                height: 100%;
+                width: 100%;
+                position: absolute;
+            }
+            .egg div img{
+                position: absolute;
+                display: block;
+            }
+            .egg .package img:nth-child(1){
+                left: 0;
+                top: 0;
+            }
+            .egg .package img:nth-child(2){
+                bottom: 0;
+                left: 0;
+            }
+            .egg .chocolate img:nth-child(1){
+                left: 0;
+                top: 0;
+            }
+            .egg .chocolate img:nth-child(2){
+                bottom: 0;
+                right: 0;
+            }
+            .egg .box img:nth-child(1){
+                left: 0;
+                top: 0;
+            }
+            .egg .box img:nth-child(2){
+                bottom: 0;
+                left: 0;
+            }
+            .package{
+                z-index: 4;
+            }
+            .chocolate{
+                z-index: 3;
+            }
+            .box{
+                z-index: 2;
+                height: 246px !important;
+                width: 156px !important;
+            }
+            .toy{
+                z-index: 1;
+                height: 239px !important;
+                width: 140px !important;
+            }
+            #confetti{
+                width: 100%;
+                opacity: 0;
+                position: fixed;
+            }
+        </style>   
+         
+        <img src="confetti.gif" id="confetti">
+        <div class="egg">
+            <div class="package">
+                <img src="up.png" style="width: 100%;">
+                <img src="bottom.png" style="width: 100%;">
+            </div>
+            <div class="chocolate">
+                <img src="left.png" style="height: 100%;">
+                <img src="right.png" style="height: 100%;">
+            </div>
+            <div class="box">
+                <img src="up2.png" style="width: 100%;">
+                <img src="bottom2.png" style="width: 100%;">
+            </div>
+            <div class="toy">
+                <img src="toy.png" style="width: 100%;">
+            </div>    
+        </div>
+
+        <script>
+            window.addEventListener('scroll', function(e) {
+                document.getElementsByClassName('package')[0].getElementsByTagName('img')[0].style.top = `-${window.scrollY / 10}px`
+                document.getElementsByClassName('package')[0].getElementsByTagName('img')[1].style.bottom = `-${window.scrollY / 10}px`
+                if(window.scrollY > 2500){
+                    document.getElementsByClassName('chocolate')[0].getElementsByTagName('img')[0].style.left = `-${(window.scrollY-2500) / 10}px`
+                    document.getElementsByClassName('chocolate')[0].getElementsByTagName('img')[1].style.right = `-${(window.scrollY-2500) / 10}px`
+                }
+                else{
+                    document.getElementsByClassName('chocolate')[0].getElementsByTagName('img')[0].style.left = `0px`
+                    document.getElementsByClassName('chocolate')[0].getElementsByTagName('img')[1].style.right = `0px` 
+                }
+                if(window.scrollY > 4000){
+                    document.getElementsByClassName('box')[0].getElementsByTagName('img')[0].style.top = `-${(window.scrollY-4000) / 10}px`
+                    document.getElementsByClassName('box')[0].getElementsByTagName('img')[1].style.bottom = `-${(window.scrollY-4000) / 10}px`
+                }
+                else{
+                    document.getElementsByClassName('box')[0].getElementsByTagName('img')[0].style.top = `0px`
+                    document.getElementsByClassName('box')[0].getElementsByTagName('img')[1].style.bottom = `0px` 
+                }
+                if(window.scrollY > 5200){
+                    document.getElementById('confetti').style.opacity = '0.9'
+                }
+                else{
+                    document.getElementById('confetti').style.opacity = '0'
+                }
+            })
+        </script>
+    </body>
+</html>

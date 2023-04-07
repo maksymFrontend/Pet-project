@@ -9,6 +9,23 @@
 
 <b>Link</b>: <a href="https://gardeners-calendar.vercel.app/">gardeners-calendar.vercel.app</a>
 
+<h2>Kinder Surprise</h2>
+<img src="https://github.com/maksymFrontend/Pet-project/blob/main/img/Kinder Surprise.png?raw=true" alt="Kinder Surprise">
+<p>
+    The "Kinder Surprise" project is an interactive web page that simulates the unpacking of a Kinder Surprise egg when the page is <b>scrolled</b>. The application was created for the purpose of entertainment and recreating the amazing moment of opening the egg. The main feature of the project is the <b>sanimation</b> that occurs when the page is scrolled. When the user scrolls down the page, the Kinder Surprise egg will begin to open, revealing a small gift inside. The animation is realistic and similar to how a real egg opens.
+</p>
+
+<b>Link</b>: <a href="https://kinder-surprise.vercel.app/">kinder-surprise.vercel.app</a>
+
+<h2>Rubik's Cube</h2>
+<img src="https://github.com/maksymFrontend/Pet-project/blob/main/img/Rubik's Cube.png?raw=true" alt="Rubik's Cube">
+<p>
+    The "Rubik's Cube" project is an interactive web application that spins the classic Rubik's puzzle in all directions.
+    One of the main features of the project is its visual component. The cube is made in <b>3D graphics</b>, and when rotated, all its faces and corners are displayed. The background also changes, which creates a sense of presence in the space.
+</p>
+
+<b>Link</b>: <a href="https://rubik-s-cube.vercel.app/">rubik-s-cube.vercel.app</a>
+
 <h2>Duck</h2>
 <img src="https://github.com/maksymFrontend/Pet-project/blob/main/img/Duck.png?raw=true" alt="Duck img">
 <p>
@@ -19,12 +36,5 @@
 <b>Link</b>: <a href="https://duck-phi.vercel.app/">duck-phi.vercel.app</a>
 
 
-<h2>Rubik's Cube</h2>
-<img src="https://github.com/maksymFrontend/Pet-project/blob/main/img/Rubik's Cube.png?raw=true" alt="Rubik's Cube">
-<p>
-    The "Rubik's Cube" project is an interactive web application that spins the classic Rubik's puzzle in all directions.
-    One of the main features of the project is its visual component. The cube is made in <b>3D graphics</b>, and when rotated, all its faces and corners are displayed. The background also changes, which creates a sense of presence in the space.
-</p>
 
-<b>Link</b>: <a href="https://rubik-s-cube.vercel.app/">rubik-s-cube.vercel.app</a>
 
