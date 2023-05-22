@@ -1,0 +1,21 @@
+.App {
+
+}
+
+.checkboxBox{
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin-right: 16px !important;
+}
+
+.list-group-item{
+  min-height: 65px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+
+.bg-light{
+  color: #000000 !important;
+}
